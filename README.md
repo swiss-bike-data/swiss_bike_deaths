@@ -4,17 +4,34 @@ bash script to download and parse switzerland bicycle deaths
 
 ## running
 
-from a unix-based terminal:
+From a unix-based terminal:
 
     sh get_swiss_bike_deaths.sh
 
-output is the timestamp of the data (meaning the last data refresh)
+The output is the timestamp of the data (meaning the last data refresh)
 
     Date stamp    01-03-2019 09:32:35
 
 and the name of the output geojson file
 
     swiss_bike_deaths.geojson
+
+### stats
+
+You can see the yearly distributions
+
+    grep AccidentYear swiss_bike_deaths.geojson | awk '{print $2}' | sed 's/"//g' | sed 's/,//g' | sort | uniq -c
+
+     40 2011
+     37 2012
+     25 2013
+     35 2014
+     41 2015
+     34 2016
+     39 2017
+     42 2018
+
+Note that despite the file contains no data for the previous year until a few months into the new year.
 
 ## requirements
 
