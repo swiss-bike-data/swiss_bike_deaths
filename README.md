@@ -33,7 +33,7 @@ You can see the yearly distributions
      39 2017
      42 2018
 
-Note that despite the file contains no data for the previous year until a few months into the new year.
+Note that despite the file date, the data is for the previous year.
 
 ## requirements
 
