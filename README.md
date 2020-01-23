@@ -2,7 +2,10 @@
 
 This is a bash script to download and parse switzerland bicycle deaths. The data is available visually ([geo.admin.ch](https://s.geo.admin.ch/86fcf4641c)) but in the default view you can select with an OR clause, but can't select fatalities that were involving ONLY bicylce accidents.
 
-The  [data is available in this repository as a geojson](https://github.com/philshem/swiss_bike_deaths/blob/master/swiss_bike_deaths.geojson) to view and download.
+The  [data is available in this repository as a geojson](https://github.com/philshem/swiss_bike_deaths/blob/master/swiss_bike_deaths.geojson) to view, interact with, and download.
+
+![screenshot of geojson viewer](https://raw.githubusercontent.com/philshem/swiss_bike_deaths/blob/master/geojson_snapshot.png)
+
 
 ## running
 
