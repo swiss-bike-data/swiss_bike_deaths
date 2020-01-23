@@ -4,7 +4,7 @@ This is a bash script to download and parse switzerland bicycle deaths. The data
 
 The  [data is available in this repository as a geojson](https://github.com/philshem/swiss_bike_deaths/blob/master/swiss_bike_deaths.geojson) to view, interact with, and download.
 
-![screenshot of geojson viewer](https://raw.githubusercontent.com/philshem/swiss_bike_deaths/blob/master/geojson_snapshot.png)
+![screenshot of geojson viewer](https://raw.githubusercontent.com/philshem/swiss_bike_deaths/master/geojson_snapshot.png)
 
 
 ## running
