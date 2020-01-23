@@ -10,7 +10,7 @@ from a unix-based terminal:
 
 output is the timestamp of the data (meaning the last data refresh)
 
-    Date stamp                     01-03-2019 09:32:35
+    Date stamp    01-03-2019 09:32:35
 
 and the name of the output geojson file
 
