@@ -55,6 +55,10 @@ It's also possible with homebrew on Mac OSX
 
 (`unzip` should already be available.)
 
+Or with conda
+
+    conda install -c conda-forge jq wget poppler
+
 ## license
 
 The script is open to the public domain. The data is separately licensed by the owner and I do not claim to own or provide this data.
