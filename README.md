@@ -27,16 +27,21 @@ and the name of the output geojson file
 
 You can see the yearly distributions
 
-    grep AccidentYear swiss_bike_deaths.geojson | awk '{print $2}' | sed 's/"//g' | sed 's/,//g' | sort | uniq -c
+    grep AccidentYear swiss_bike_deaths.geojson | awk '{print $2}' | sed 's/"//g' | sed 's/,//g' | sort | uniq -c | awk '{print $2,$1}'
 
-     40 2011
-     37 2012
-     25 2013
-     35 2014
-     41 2015
-     34 2016
-     39 2017
-     42 2018
+gives this yearly time series
+
+```
+2011 40
+2012 37
+2013 25
+2014 35
+2015 41
+2016 34
+2017 39
+2018 42
+2019 27
+```
 
 Note that despite the file date, the data is for the previous year.
 
