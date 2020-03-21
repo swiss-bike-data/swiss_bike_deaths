@@ -17,7 +17,8 @@ From a unix-based terminal:
 
     Date stamp    01-03-2019 09:32:35
 </s>
-(_The date stamp corresponds to the metadta and not the actual data.zip file._)
+
+(The date stamp corresponds to the metadta and not the actual *data.zip* file.)
 
 and the name of the output geojson file
 
