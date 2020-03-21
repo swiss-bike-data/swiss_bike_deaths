@@ -13,9 +13,11 @@ From a unix-based terminal:
 
     sh get_swiss_bike_deaths.sh
 
-The output is the timestamp of the data (meaning the last data refresh)
+<s>The output is the timestamp of the data (meaning the last data refresh)
 
     Date stamp    01-03-2019 09:32:35
+</s>
+(_The date stamp corresponds to the metadta and not the actual data.zip file._)
 
 and the name of the output geojson file
 
